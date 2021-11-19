@@ -1,207 +1,102 @@
-
-* {
-  box-sizing: border-box;
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #EEEBDD;
+  font-family: 'Oxygen', sans-serif;
 }
-
-body{
+.container-fluid{
 	margin: 0;
 	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background-color: #FFF2CC;
 }
 
-.row{
-  margin-top: 5%;
-  margin-bottom: 5%;
+.navbar{
+	border-radius: 0px;
+	background-color: #C37B89;
 }
 
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  color: #ff4532;
-  font-size: 50px;
-}
-
-
-.box{
-  width: 100%;
-  overflow: none;
-}
-
-
-.content-name{
-  overflow: none;
-  text-align: center;
-  border: 4px solid black;
-  width: 100px;
-  height: 40px;
-  padding: 5px;
-  float: right;
-  margin-right: 36px;
-  margin-top: 0px;
-  font-weight: bold;
-  position: relative;
-}
-
-.content{
-  border: 5px solid black;
-  width: 90%;
-  height: auto;
-  margin: 2.5%;
-  color: black
-  font-size: 25px;
-  padding: 2%;
-  padding-top: 55px;
-  background-color: rgba(0,0,0,0.3);
-}
-
-.chicken{
-  background-color: #FFB6C1;
-}
-
-.beef{
+.navbar-brand{
+  font-size: 35px;
   color: white;
-  background-color: #FF0000;
-}
-.sushi{
-  background-color: #FFFF00;
+  padding-left: 25px;
 }
 
-
-
-@media (min-width: 992px) {
-  .col-lg-4 {
-  	float: left;
-    width: 33.33%;
-  }
+.navbar-brand:hover{
+	color: white;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6,.col-md-12 {
-    float: left;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    margin-left: -10px;
-    width: 100%;
-  }
-  .name3{
-    margin-right: 65px;
-    width: 100px;
-  }
-}
-
-@media (min-width: 0px) and (max-width: 767px) {
-  .col-sm-12 {
-  	float: left;
-    width: 100%;
-  }
-  .content-name{
-    margin-right: 30px;
-  }
-=======
-* {
-  box-sizing: border-box;
-}
-
-body{
+.nav{
 	margin: 0;
 	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.row{
-  margin-top: 5%;
-  margin-bottom: 5%;
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: #ff4532;
+  color: #3275ff;
   font-size: 50px;
-}
-
-
-.box{
-  width: 100%;
-  overflow: none;
-}
-
-
-.content-name{
-  overflow: none;
-  text-align: center;
-  border: 4px solid black;
-  width: 100px;
-  height: 40px;
-  padding: 5px;
-  float: right;
-  margin-right: 36px;
-  margin-top: 0px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
-  position: relative;
 }
 
-.content{
-  border: 5px solid black;
-  width: 90%;
-  height: auto;
-  margin: 2.5%;
-  color: black
-  font-size: 25px;
-  padding: 2%;
-  padding-top: 55px;
-  background-color: rgba(0,0,0,0.3);
+li{
+	box-sizing: border-box;
+	width: 100%;
 }
 
-.chicken{
-  background-color: #FFB6C1;
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
 }
 
-.beef{
-  color: white;
-  background-color: #FF0000;
-}
-.sushi{
-  background-color: #FFFF00;
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
 }
 
 
 
-@media (min-width: 992px) {
-  .col-lg-4 {
-  	float: left;
-    width: 33.33%;
-  }
+.row{
+	margin: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6,.col-md-12 {
-    float: left;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    margin-left: -10px;
-    width: 100%;
-  }
-  .name3{
-    margin-right: 65px;
-    width: 100px;
-  }
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
-  .col-sm-12 {
-  	float: left;
-    width: 100%;
-  }
-  .content-name{
-    margin-right: 30px;
-  }
->>>>>>> 3e373293de76c9b51a6e9f5c8a46cb3edfe80798
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
 }
